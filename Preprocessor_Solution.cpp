@@ -15,6 +15,13 @@ using namespace std;
 
 FUNCTION(minimum, <)
 FUNCTION(maximum, >)
+  int main(){
+	int n; cin >> n;
+	vector<int> v(n);
+	foreach(v, i) {
+		io(v)[i];
+	}
+
 
 
 }
