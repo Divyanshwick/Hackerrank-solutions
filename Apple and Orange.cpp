@@ -13,6 +13,17 @@ int main(){
     }
 
 
+    for(i=0;i<n;i++){
+        cin >> oranges[i];
+        oranges[i]+=b;
+        if(oranges[i]>=s && oranges[i]<=t)
+            cnt2++;
+    }
+
+    cout << cnt1 << "\n" << cnt2;
+    
+    return 0;
+
     
 
     
