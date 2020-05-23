@@ -21,6 +21,16 @@ FUNCTION(maximum, >)
 	foreach(v, i) {
 		io(v)[i];
 	}
+		int mn = INF;
+	int mx = -INF;
+	foreach(v, i) {
+		minimum(mn, v[i]);
+		maximum(mx, v[i]);
+	}
+	int ans = mx - mn;
+	cout << toStr(Result =) <<' '<< ans;
+	return 0;
+
 
 
 
