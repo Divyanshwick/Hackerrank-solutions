@@ -1,2 +1,2 @@
 # Hackerrank-solutions
-solutions of the problems in Hackerrank(C language)
+Just a repo to store my code for the problems of hackerrank.
