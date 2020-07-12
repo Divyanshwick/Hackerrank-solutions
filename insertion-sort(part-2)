@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n,i,j,key;
+    cin >> n;
+    int arr[n];
+    for(i=0;i<n;cin >> arr[i++]);
+
+    for(i=1;i<n;i++){
+        key = arr[i];
+        j = i-1;
+
+        while(j>=0 && arr[j] > key){
+            arr[j+1] = arr[j];
+            j=j-1;
+        }
+        arr[j+1] = key;
+        for(j=0;j<n;cout << arr[j++] << " ");
+        cout << endl;
+
+    }
+
+return 0;
+}
